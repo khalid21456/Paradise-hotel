@@ -1,0 +1,16 @@
+#vue {
+    background-image: url("../img/main.jpeg");
+}
+
+.def {
+    font-family: 'Inter', sans-serif;
+}
+
+.paradise {
+    color: rgb(242, 127, 82);
+    font-family: 'Vollkorn SC', serif;
+} 
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

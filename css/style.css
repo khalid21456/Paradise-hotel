@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+span {
+  font-size: 20px;
+}
+
+#main {
+  height: 660px;
+  
+}
+
+body {
+  height: 3000px;
+  background-color: rgb(237, 240, 212);
+}
+
+.def {
+  color: white;
+  font-size: 40px;
+  line-height: 70px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+
+.nav-item {
+  margin: 30px;
+}
+
+
+#vue {
+  background-image: url("../img/main.jpeg"); 
+  background-repeat: no-repeat;
+  background-size: 1550px 750px;
+}
+
+.paradise {
+  color: rgb(178, 94, 94);
+  font-size: 80px;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-family:sans-serif
+}
+
+.propr1 {
+  height:200px;
+  border: 1px black solid;
+  border-radius: 50%;
+}
+
+.propr2 {
+  height:200px;
+  border: 1px black solid;
+  border-radius: 50%;
+}
+
+.propr3 {
+  height:200px;
+  border: 1px black solid;
+  border-radius: 50%;
+}
+
+#caract {
+  margin-left: 250px;
+  margin-top: -40px;
+}
+
+.sign:hover {
+  font-weight: bold; 
+  color: rgb(237, 240, 212); 
+}
+
+

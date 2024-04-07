@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+
+body {
+  background-image: url("../img/hotel-background.jpg");
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.container {
+  border: 1px solid white;
+  max-width: 1000px;
+  height: auto;
+  width: 700px;
+  background-color: #ffffffc1;
+  padding: 25px 30px;
+  border-radius: 5px;
+  backdrop-filter: blur(8px);
+}
+.container .title {
+  font-size: 10;
+  color: brown;
+}
+.container form .user {
+  color: brown;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container .user .input {
+  margin: 2px 0 12px 0;
+  width: calc(100% / 2 - 25px);
+}
+.container .user .input input {
+  height: 40px;
+  width: 100%;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  background-color: rgb(255, 255, 255);
+}
+.container .user label {
+  font: 1em sans-serif;
+}
+.container .user .input input:focus,
+.container .user .input input:valid {
+  border: 1px solid black;
+}
+.container .user .input input:focus,
+.container .user .input input:hover {
+  border: 1px solid brown;
+}
+.container .input {
+  padding-top: 10px;
+}
+.container .selection {
+  padding-top: 10px;
+}
+form .butt {
+  margin: 30px 0;
+  height: 5px;
+}
+form .butt button {
+  height: 25px;
+  width: 50%;
+  outline: none;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border: 1px solid;
+  border-radius: 3px;
+  font-weight: bold;
+  padding: 5px 15px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+form .butt button:hover {
+  background-color: rgba(165, 42, 42, 0.491);
+}
+.container .inputdate {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.container .inputdate input,
+.container .selection select {
+  height: 28px;
+  width: 350px;
+  margin-left: 60px;
+  position: relative;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  transition: 0.2s;
+  border: 1px solid black;
+  padding: 2px;
+}
+.container .inputdate input:focus,
+.container .inputdate input:hover {
+  border: 1px solid brown;
+}
+.container .selection {
+  display: flex;
+}
+.container .selection select:focus,
+.container .selection select:hover {
+  border: 1px solid brown;
+}
+.container .ltht label {
+  width: 150px;
+}
